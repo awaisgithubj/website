@@ -1,0 +1,144 @@
+/*.header{
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid black;
+    height: 100vh;
+    width: 100vw;
+    background: url('img4.jpg');   
+ }*/
+
+ body{
+    display: flex;
+    flex-flow: column wrap;
+ }
+ header::before{
+    display:flex ;
+    background: url('img4.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 1.0;
+}
+ p{
+    color: white;
+ }
+ .left{
+    display: inline-block;
+    width: 150px;
+    position: absolute;
+    top: 40px;
+}
+.left div{
+    text-align: center;
+    color: white;
+    font-family: cursive;
+}
+.left img {
+    /* invert()is for change the color from left to right */
+width: 70px;
+margin-left: 40px;
+}
+.mid{
+    display: inline-block;
+width: 33%;
+margin: 12px auto;
+position: absolute;
+right: 450px;
+top: 32px;
+}
+.navbar{
+    display: flex;
+}
+.navbar li{
+    display: inline-block;
+    padding: 4px;
+    font-size: 18px;
+    font-family: cursive;
+}
+.navbar a{
+    text-decoration: none;
+    color:burlywood;
+}
+.navbar a:hover ,.navbar a.active{
+      text-decoration: underline;
+      color: grey;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+        top: 53px;
+        right: 34px;
+}
+.right button
+{
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+.n
+{
+    width:150px;
+}
+.container{
+    color: khaki;
+width: 500px;
+/* margin: 3px 30px; */
+font-family: cursive;
+border-radius: 45px;
+border: 1px solid black;
+position: absolute;
+top:200px;
+left: 80px;
+height: 296px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+box-shadow: 5px 5px black;
+}
+label{
+    margin-left: 20px;
+    color: gray;
+}
+.container h2{
+    font-size: 20px;
+   text-align: center;
+}
+.container input
+{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+background-color: black;
+color: gray;
+border-radius: 10px;
+/* display: inline-block;
+margin-top: 2px;
+margin-left: 90px;
+padding: 10px; */
+font-family: cursive;
+text-align: center;
+margin-left: 5px;
+}
+.container select
+{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+background-color: black;
+color: gray;
+border-radius: 10px;
+/* display: inline-block;
+margin-top: 2px;
+margin-left: 90px;
+padding: 10px; */
+font-family: cursive;
+text-align: center;
+margin-left: 5px;
+}

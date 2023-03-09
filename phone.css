@@ -1,0 +1,97 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.header::before{
+    height: 100%;
+    width: 86%;
+    display: flex;
+    background: url('img.jpg') no-repeat center center/cover;
+}
+.left{
+    display: flex;
+    flex-flow: column wrap;
+}
+.left div{
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 23px;
+    background-color: black;
+}
+.left img{
+    width: 85px;
+    margin-top: 0px;
+}
+.mid{
+    width: 0px;
+    height: 284px;
+    position: absolute;
+    top: 80px;
+    left: 155px;
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 45px;
+    margin-left: 60px;
+
+}
+.navbar a:hover ,.navbar a.active{
+      text-decoration: underline;
+      color: grey;
+}
+.navbar li{
+    
+    background-color: black;
+    width: 146px;
+}
+.navbar li a{
+    color: white;
+    font-size: 26px;
+   margin-top: 1px;
+   border: 1px solid white;
+
+}
+.navbar
+{
+    margin-top: 20px;
+    margin-left:100px;
+}
+.right{
+    display: flex;
+    flex-flow: column wrap;
+    width: 124px;
+}
+.right button{
+    font-size: 29px;
+    width: 139px;
+    
+}
+body{
+    height: 500px;
+}
+.container{
+     left:10px;   
+    display: flex;
+    height: 700px;
+    width: 230px;
+    flex-flow: column;
+    box-shadow: 1px 5px white;
+    position: absolute;
+    top:250px;
+    color: aqua;
+}
+.container input{
+    height: 23px;
+    width: 100px;
+    background-color: mediumaquamarine;
+    font-size: 13px;
+    color:aqua
+  
+}
+label{
+    color: aqua;
+}
+.container select
+{
+    color: aqua;
+}
