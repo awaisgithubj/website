@@ -5,7 +5,7 @@ body{
 }
 .header::before{
     height: 100%;
-    width: 86%;
+    width: 100%;
     display: flex;
     background: url('img.jpg') no-repeat center center/cover;
 }
