@@ -72,7 +72,7 @@ body{
 .container{
      left:10px;   
     display: flex;
-    height: 700px;
+    height: 626px;
     width: 230px;
     flex-flow: column;
     box-shadow: 1px 5px white;
