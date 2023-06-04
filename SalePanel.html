@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <style>
+        .font-p {
+            font-size: 12px;
+        }
+
+
+        @media (max-width: 576px) {
+            .button1 {
+                top: 593px;
+                width: 75px;
+            }
+
+            .button2 {
+                top: 635px;
+                width: 75px;
+            }
+
+        }
+
+        @media (min-width: 576px) {
+            .button1 {
+                top: 546px;
+                width: 114px;
+            }
+
+            .button2 {
+                top: 590px;
+                width: 114px;
+            }
+
+        }
+
+        /* // Medium devices (tablets, 768px and up) */
+        @media (min-width: 768px) {
+            .button1 {
+                top: 460px;
+                width: 156px;
+            }
+
+            .button2 {
+                top: 510px;
+                width: 156px;
+            }
+        }
+
+        /* // Large devices (desktops, 992px and up) */
+        @media (min-width: 992px) {
+            .button1 {
+                top: 252px;
+                width: 222px;
+            }
+
+            .button2 {
+                top: 306px;
+                width: 222px;
+            }
+        }
+
+        /* // Extra large devices (large desktops, 1200px and up) */
+        @media (min-width: 1200px) {
+            .button1 {
+                top: 252px;
+                width: 272px;
+            }
+
+            .button2 {
+                top: 314px;
+                width: 272px;
+            }
+        }
+    </style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container mt-2">
+        <div class="row">
+            <div class="col-9">
+                <div class="row">
+                    <div class="col-3 border-right m-0  p-0 border col-md-2">
+                        <button type="button" class="btn button border mb-3  mr-3 m-0 w-100 btn-sm text-center d-block">
+                            Simple
+                        </button>
+                        <button type="button" class="btn button border mb-3 mr-3 btn-sm w-100 m-0  text-center d-block">
+                            Barcode
+                        </button>
+                    </div>
+                    <div class="col-9  border-right m-0 border col-md-4">
+                        <div class="row p-0 ">
+                            <div class="col-5 col-lg-4 p-0 pl-2 col-md-4">
+                                <p class="card-text  p-0 font-weight-bold text-justify font-p">Item code</p>
+                            </div>
+                            <div class="col-7 p-0 col-lg-8 col-md-8">
+                                <div class="row">
+                                    <div class="col-4 p-0 ">
+                                        <p class="card-text d-block m-0 font-p  font-weight-bold border ">Stock</p>
+                                    </div>
+                                    <div class="col-6 p-0 ">
+                                        <p class="card-text border font-weight-bold font-p">3 PCs</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4 p-0 ">
+                                        <p class="card-text d-block m-0 font-weight-bold border font-p ">Packing</p>
+                                    </div>
+                                    <div class="col-6 p-0 ">
+                                        <p class="card-text border font-p font-weight-bold">3 PCs</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <select class="form-control font-p m-0 mt-2 ml-1 mr-1 h-75 " tabindex="1"
+                                id="exampleFormControlSelect1">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-12 border-right border col-md-6">
+                        <div class="row">
+                            <div class="col-3 m-0 col-md-4">
+                                <p class="card-text d-block m-0 mb-1  font-weight-bold font-p">Item:</p>
+                                <p class="card-text d-block m-0 mb-1  font-weight-bold font-p">Category:</p>
+                                <p class="card-text d-block m-0 mb-1 font-weight-bold  font-p">Brand:</p>
+                            </div>
+                            <div class="col-9 m-0 p-0 col-md-8">
+                                <p class="card-text d-block m-0 mb-1  font-weight-bold font-p text-danger ">Alamof
+                                    Alovera Gel
+                                    100ml</p>
+                                <p class="card-text d-block m-0 mb-1  font-weight-bold font-p text-danger">Gel</p>
+                                <p class="card-text d-block m-0 mb-1  font-weight-bold font-p text-danger">
+                                    Dilligence
+                                    Health Care</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row  border border-right">
+                    <div class="col-4 p-0  mb-3 mt-2 col-md-2">
+                        <p class="card-text w-100 font-weight-bold font-p mt-1 ml-1">Price / Unit</p>
+                    </div>
+                    <div class="col-4 p-0 pl-3 mt-2 col-md-2">
+                        <select class="form-control w-100 font-p p-0 m-0 h-75 font-weight-bold" tabindex="2"
+                            id="exampleFormControlSelect1">
+                            <option>PCS</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div class="col-4 p-0 pl-1 mt-2 col-md-2">
+                        <input type="text" name="" class="w-75 text-right font-p h-75 p-1" id="" tabindex="3"
+                            value="7.30">
+                    </div>
+                    <div class="col-2 p-0 mt-2 col-md-2">
+                        <p class="card-text font-p text-right mt-1 font-weight-bold">Quantity:</p>
+                    </div>
+                    <div class="col-8 p-0 pl-2 mt-2 col-md-2">
+                        <input type="text" name="" class="w-50 text-right d-inline-block font-p h-75 p-1" tabindex="4"
+                            id="" value="1">
+                        <p class="card-text text-center p-0 d-inline-block font-p font-weight-bold">PCS</p>
+                    </div>
+                </div>
+                <div class="row border">
+                    <div class="col-9 col-md-10 col-lg-11">
+                        <p class="card-text pt-3 m-0 text-right font-p font-weight-bold">Net Amount: 7300.00</p>
+                    </div>
+                    <div class="col-1 pt-2 border-left p-0  pl-3 col-md-2 col-lg-1">
+                        <button type="button" class="btn  btn-sm btn-success border mb-1" tabindex="5">ADD</button>
+                    </div>
+                </div>
+                <div class="row" style="height: 12rem;">
+                    <div class="col-12 border pt-2">
+                        <table class="table table-striped  table-responsive-md border">
+                            <thead>
+                                <tr>
+                                    <th scope="col-2" class="font-p">Product</th>
+                                    <th scope="col-2" class="font-p">Price</th>
+                                    <th scope="col-2" class="font-p">Quantity</th>
+                                    <th scope="col-2" class="font-p">Unit</th>
+                                    <th scope="col-2" class="font-p">Packing</th>
+                                    <th scope="col-2" class="font-p">Amount</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="font-p">AC</td>
+                                    <td class="font-p">120</td>
+                                    <td class="font-p">12</td>
+                                    <td class="font-p">12</td>
+                                    <td class="font-p">12</td>
+                                    <td class="font-p">12,000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row border">
+                    <div class="col-6  border-right">
+                        <p class="card-text p-2 m-0 text-right font-p font-weight-bold ">Total:</p>
+                    </div>
+                    <div class="col-6 ">
+                        <p class="card-text p-2 m-0 text-right font-p font-weight-bold">17,400</p>
+                    </div>
+                </div>
+                <div class="row border">
+                    <div class="col-6  pt-2 col-lg-1">
+                        <p class="card-text m-0   font-p font-weight-bold">Name:</p>
+                    </div>
+                    <div class="col-6   col-lg-2 pt-2 border-right border-warning ">
+                        <input type="text" name="" class="w-100 text-right font-p border mb-2" id="" value="TEST">
+                    </div>
+                    <div class="col-6 pt-2  col-lg-1">
+                        <p class="card-text m-0  font-p font-weight-bold">Mobile:</p>
+                    </div>
+                    <div class="col-6 pt-2  border-right border-warning  col-lg-2">
+                        <input type="text" name="" class="w-100 text-right font-p border mb-2" id="" value="11111111">
+                    </div>
+                    <div class="col-6  pt-2  col-lg-1">
+                        <p class="card-text m-0  font-p font-weight-bold">CNIC:</p>
+                    </div>
+                    <div class="col-6  pt-2  border-right border-warning  col-lg-2">
+                        <input type="text" name="" class="w-100 text-right font-p border mb-2" id="" value="11111111">
+                    </div>
+                    <div class="col-6 pt-2   col-lg-1">
+                        <p class="card-text m-0 font-p font-weight-bold">NTN:</p>
+                    </div>
+                    <div class="col-6 pt-2  col-lg-2  border-right border-warning ">
+                        <input type="text" name="" class="w-100 text-right  font-p mb-2 border" id="" value="11111111">
+                    </div>
+                </div>
+                <div class="row border">
+                    <div class="col-6 col-lg-2">
+                        <p class="card-text pt-3 m-0 font-p font-weight-bold">Description:</p>
+                    </div>
+                    <div class="col-6 p-0 pt-2 col-lg-2 border-right ">
+                        <textarea class="form-control mr-2" id="exampleFormControlTextarea1" rows="2"></textarea>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <p class="card-text pt-3 m-0 border-bottom p-0 font-p  font-weight-bold  border-right">Total
+                            Sold Products: 1
+                        </p>
+                        <p
+                            class="card-text pt-3 m-0 border-bottom text-danger p-0  font-weight-bold border-right font-p">
+                            Total Return
+                            Products:0</p>
+                    </div>
+                    <div class="col-3 pt-4 col-md-2 col-lg-3">
+                        <p class="card-text m-0 text-danger font-weight-bold  font-p">Net Receivable:</p>
+                    </div>
+                    <div class="col-2 pt-4 col-md-1 col-lg-1">
+                        <p class="card-text m-0 text-right font-weight-bold  font-p">17,400.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 border">
+
+                <div class="row border-bottom">
+                    <div class="col-2  mb-2 ">
+                        <p class="card-text font-p font-weight-bold pt-1">Date:</p>
+                    </div>
+                    <div class="col-12  mb-2 col-md-12">
+                        <input type="datetime-local" name="date" id="" class="font-p w-100">
+                    </div>
+                </div>
+                <div class="row mt-2 ">
+                    <div class="col-12 ">
+                        <h1 class="card-text  text-center border text-primary font-p p-2  w-100">
+                            User:admin
+                        </h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 pt-3">
+                        <button type="button" class="btn text-center text-wrap border w-100 font-p p-0"
+                            style="height: 50px;">
+                            Sale Person</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <button type="button" class="btn   button1 border btn-success  position-absolute">
+                            Cash
+                        </button>
+                    </div>
+                    <div class="col-12 ">
+                        <button type="button" class="btn  button2 btn-danger position-absolute">
+                            Credit
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
